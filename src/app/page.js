@@ -1,12 +1,11 @@
-import Image from 'next/image'
-import Navbar from '@/components/Navbar'
-import Footer from '@/components/Footer'
+import Skills from '@/components/Skills'
 import Hero from '@/components/Hero'
 
-export default function Home() {
+export default function Home() { 
   return (
     <>
     <Hero/>
+    <Skills/>
       
 
 
